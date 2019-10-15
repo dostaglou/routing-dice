@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Header = () => (
-  <header>
+  <header className="border-bottom">
     <ul className="nav nav-pills nav-fill">
       <li className="nav-item"><NavLink className="nav-link" exact to="/">Home</NavLink></li>
       <li className="nav-item"><NavLink className="nav-link" to="/history">History</NavLink></li>

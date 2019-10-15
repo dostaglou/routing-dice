@@ -11,3 +11,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.home-box {
+  height: 500px;
+  background: #f9f9f9;
+}
